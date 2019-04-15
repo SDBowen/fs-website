@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path");
 
 // Create pages from markdown files
 exports.createPages = ({ graphql, actions }) => {
@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
             team: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/team/" } }
+              filter: { fileAbsolutePath: { regex: "/about-us/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -57,40 +57,40 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
           }
-        `,
-      ).then((result) => {
+        `
+      ).then(result => {
         result.data.services.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/service.js');
+          const component = path.resolve("src/templates/service.js");
           createPage({
             path: node.frontmatter.path,
             component,
             context: {
-              id: node.id,
-            },
+              id: node.id
+            }
           });
         });
         result.data.team.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/team.js');
+          const component = path.resolve("src/templates/team.js");
           createPage({
             path: node.frontmatter.path,
             component,
             context: {
-              id: node.id,
-            },
+              id: node.id
+            }
           });
         });
         result.data.testimonials.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/testimonial.js');
+          const component = path.resolve("src/templates/testimonial.js");
           createPage({
             path: node.frontmatter.path,
             component,
             context: {
-              id: node.id,
-            },
+              id: node.id
+            }
           });
         });
         resolve();
-      }),
+      })
     );
   });
 };

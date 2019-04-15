@@ -15,6 +15,8 @@
   }
   .card-content {
     flex: 1;
+    background-color: rgba($white, 0.8);
+    border-radius: 15px;
     h2 {
       font-family: $font-family-heading;
       font-size: 1.6rem;
@@ -32,4 +34,9 @@
   box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2);
   background: #fff;
   padding: 20px;
+}
+
+.team {
+  background-color: rgba($white, 0.8);
+  border-radius: 15px;
 }

@@ -5,7 +5,7 @@
   z-index: 10;
   cursor: pointer;
   height: 40px;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: none;
   }
   &:focus {

@@ -1,17 +1,32 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "/features/noun_branding_1885335.svg"
+    "title": "Airport Transportation",
+    "description": "Depend on us to get you there on time, every time!",
+    "image": "/features/plane.svg",
+    "path": "/airport-service"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "/features/noun_The Process_1885341.svg"
+    "title": "Medical Transportation",
+    "description": "Non-emergency medical transportation for those who are in need of extra care.",
+    "image": "/features/doctor.svg",
+    "path": "/medical"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "/features/noun_3d modeling_1885342.svg"
+    "title": "Recreational Transportation",
+    "description": "Dependable, comfortable transportation for all your recreational activities.",
+    "image": "/features/ticket.svg",
+    "path": "/recreational-service"
+  },
+  {
+    "title": "Mobility for Seniors",
+    "description": "Let us help you with your mobility and transportation needs.",
+    "image": "/features/glasses.svg",
+    "path": "/seniors"
+  },
+  {
+    "title": "Wheelchair Accessible Vans",
+    "description": "Our customized vans are equipped to accommodate wheelchairs and gurneys.",
+    "image": "/features/wheelchair.svg",
+    "path": "/wheelchair-service"
   }
 ]
