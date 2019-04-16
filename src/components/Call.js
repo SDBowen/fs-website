@@ -11,7 +11,7 @@ const Call = props => (
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <a href="/contact" className="button">
+        <a href="/book-online" className="button">
           Book Online
         </a>
       </div>

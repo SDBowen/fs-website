@@ -10,11 +10,11 @@
 @import "bootstrap/reboot";
 @import "bootstrap/grid";
 @import "bootstrap/type";
-@import "bootstrap/tables";
+// @import "bootstrap/tables";
 // @import "bootstrap/images";
 // @import "bootstrap/code";
 @import "bootstrap/forms";
-// @import "bootstrap/buttons";
+@import "bootstrap/buttons";
 // @import "bootstrap/transitions";
 // @import "bootstrap/dropdown";
 // @import "bootstrap/button-group";
@@ -65,6 +65,7 @@
 
 // Pages
 @import "pages/home";
+@import "pages/contact/page-contact";
 @import "pages/team/page-teams";
 @import "pages/testimonials/page-testimonials";
 @import "pages/testimonials/testimonial";

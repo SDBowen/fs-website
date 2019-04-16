@@ -19,5 +19,3 @@ On your return, stay comfortably in the terminal, while we supplement the airpor
 We have flight tracking. Advance reservations and/or call us from the tarmac.
 
 We will be there to greet and help you make a seamless transfer to ground transportation after your flight. Welcome home!
-
-[Book Online](#fati) or call XXX XXXX

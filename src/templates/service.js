@@ -1,7 +1,8 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import SEO from '../components/SEO';
-import Layout from '../layouts/index';
+import React from "react";
+import { graphql } from "gatsby";
+import SEO from "../components/SEO";
+import Layout from "../layouts/index";
+import Call from "../components/Call";
 
 const Service = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
@@ -15,10 +16,17 @@ const Service = ({ data }) => {
             <div className="col-12 col-md-8">
               <div className="service service-single">
                 <h1 className="title">{title}</h1>
-                <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
+                <div
+                  className="content"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="container pt-2 mb-1">
+          <Call button />
         </div>
       </div>
     </Layout>

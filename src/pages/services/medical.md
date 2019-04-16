@@ -25,6 +25,4 @@ We provide your patients and patrons a higher standard of care. We will deliver 
 
 ##### We encourage advanced reservations but we take pride in responding to STAT calls for on-demand service.
 
-[Book Online](#fati) or call XXX XXXX
-
 ##### Please communicate special needs or bariatric requirements when booking transportation service
