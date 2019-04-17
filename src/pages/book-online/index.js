@@ -30,7 +30,88 @@ const Book = () => (
           >
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="booking" />
+
             <div className="form-group">
+              <div className="form-check form-check-inline">
+                <span className="mr-2">Accessible Services:</span>
+                <label
+                  className="form-check-label mr-1"
+                  htmlFor="services-wheelchair"
+                >
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="services-wheelchair"
+                    value="Wheelchair"
+                  />
+                  Wheelchair
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <label
+                  className="form-check-label mr-1"
+                  htmlFor="services-wheelchair-wide"
+                >
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="services-wheelchair-wide"
+                    value="Wide Wheelchair"
+                  />
+                  Wide-width Wheechair
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <label
+                  className="form-check-label mr-1"
+                  htmlFor="services-blind"
+                >
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    name="services-blind"
+                    value="Blind"
+                  />
+                  Blind
+                </label>
+              </div>
+            </div>
+
+            <div className="form-group">
+              <div className="form-check form-check-inline">
+                <span className="mr-2">
+                  Do you need us to supply a wheelchair?
+                </span>
+                <label
+                  className="form-check-label mr-1"
+                  htmlFor="supply-wheelchair-yes"
+                >
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="supply-wheelchair-yes"
+                    value="Yes"
+                  />
+                  Yes
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <label
+                  className="form-check-label"
+                  htmlFor="supply-wheelchair-no"
+                >
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="supply-wheelchair-no"
+                    value="No"
+                  />
+                  No
+                </label>
+              </div>
+            </div>
+
+            <div className="form-group mt-3">
               <label htmlFor="name" className="mr-1">
                 Name
                 <input
@@ -242,7 +323,7 @@ const Book = () => (
                     name="payment-credit"
                     value="Credit"
                   />
-                  Credit
+                  Credit Card
                 </label>
               </div>
 
