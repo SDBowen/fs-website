@@ -61,12 +61,21 @@ const Book = () => (
                 <input className="form-control" type="date" name="date" />
               </label>
 
-              <label htmlFor="pickup-time">
+              <label htmlFor="pickup-time" className="mr-1">
                 Pickup Time
                 <input
                   className="form-control"
                   type="time"
                   name="pickup-time"
+                />
+              </label>
+
+              <label htmlFor="appointment-time">
+                Appointment Time
+                <input
+                  className="form-control"
+                  type="time"
+                  name="appointment-time"
                 />
               </label>
             </div>
