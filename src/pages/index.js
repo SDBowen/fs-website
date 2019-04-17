@@ -6,7 +6,7 @@ import Layout from "../layouts/index";
 import Call from "../components/Call";
 
 const Home = props => {
-  const markdown = props.data.allMarkdownRemark.edges;
+  const services = props.data.allMarkdownRemark.edges;
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-home">
@@ -14,7 +14,7 @@ const Home = props => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="208-866-3055. Wheelchair accessible vans. Always on time. Wheelchair service. Medical transportation. Recreational transportation. Airport transportation."
         />
       </Helmet>
       <div className="intro pb-4">
@@ -40,7 +40,7 @@ const Home = props => {
           <div className="col-12">
             <h2 className="title-3 text-dark mb-3">Our Services</h2>
           </div>
-          {markdown.map(edge => (
+          {services.map(edge => (
             <div
               key={edge.node.frontmatter.path}
               className="col-12 col-md-6 col-lg-4 mb-2"

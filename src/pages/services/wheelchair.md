@@ -2,7 +2,6 @@
 path: "/wheelchair-service"
 title: "Wheelchair Accessible Vans"
 description: "Our customized vans are equipped to accommodate wheelchairs and gurneys."
-date: 2018-11-18T12:33:46+10:00
 image: "/features/wheelchair.svg"
 ---
 

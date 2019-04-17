@@ -2,7 +2,6 @@
 path: "/airport-service"
 title: "Airport Transportation"
 description: "Depend on us to get you there on time, every time!"
-date: 2018-11-28T15:14:54+10:00
 image: "/features/plane.svg"
 featured: true
 draft: false

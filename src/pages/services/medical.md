@@ -2,7 +2,6 @@
 path: "/medical"
 title: "Medical Transportation"
 description: "Non-emergency medical transportation for those who are in need of extra care."
-date: 2018-11-28T15:14:39+10:00
 image: "/features/doctor.svg"
 featured: true
 ---

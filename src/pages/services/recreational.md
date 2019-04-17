@@ -2,7 +2,6 @@
 path: "/recreational-service"
 title: "Recreational Transportation"
 description: "Dependable, comfortable transportation for all your recreational activities."
-date: 2018-11-28T15:15:34+10:00
 image: "/features/ticket.svg"
 featured: true
 draft: false

@@ -3,7 +3,8 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 module.exports = {
   siteMetadata: {
     title: "Freedom Shuttle | Medical Transportation Merdian, Idaho",
-    description: "my theme",
+    description:
+      "208-866-3055. Wheelchair accessible vans. Always on time. Wheelchair service. Medical transportation. Recreational transportation. Airport transportation.",
     contact: {
       phone: "(208) 866-3055",
       email: "ladona@freedomshuttle.net"

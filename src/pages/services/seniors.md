@@ -2,7 +2,6 @@
 path: "/seniors"
 title: "Mobility for Seniors"
 description: "Let us help you with your mobility and transportation needs."
-date: 2018-11-28T15:15:26+10:00
 image: "/features/glasses.svg"
 featured: true
 draft: false
