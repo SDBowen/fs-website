@@ -22,7 +22,14 @@ const Book = () => (
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <form name="booking" method="POST" data-netlify="true">
+          <form
+            name="booking"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="booking" />
             <div className="form-group">
               <label htmlFor="name" className="mr-1">
                 Name

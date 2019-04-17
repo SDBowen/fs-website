@@ -19,7 +19,14 @@ const Contact = props => (
       </div>
     </div>
     <div className="container">
-      <form name="feedback" method="POST" data-netlify="true">
+      <form
+        name="feedback"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="booking" />
         <div className="form-group">
           <label htmlFor="name">
             Name:
