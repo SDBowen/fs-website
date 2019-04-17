@@ -18,6 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     path
                     title
+                    description
                     date(formatString: "DD MMMM YYYY")
                   }
                   excerpt

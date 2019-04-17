@@ -40,19 +40,26 @@ const Home = props => {
           <div className="col-12">
             <h2 className="title-3 text-dark mb-3">Our Services</h2>
           </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
+          {markdown.map(edge => (
+            <div
+              key={edge.node.frontmatter.path}
+              className="col-12 col-md-6 col-lg-4 mb-2"
+            >
               <div className="feature">
-                {edge.node.image && (
+                {edge.node.frontmatter.image && (
                   <div className="feature-image">
-                    <img src={withPrefix(edge.node.image)} />
+                    <img src={withPrefix(edge.node.frontmatter.image)} />
                   </div>
                 )}
-                <Link to={edge.node.path}>
-                  <h2 className="feature-title">{edge.node.title}</h2>
+                <Link to={edge.node.frontmatter.path}>
+                  <h2 className="feature-title">
+                    {edge.node.frontmatter.title}
+                  </h2>
                 </Link>
 
-                <div className="feature-content">{edge.node.description}</div>
+                <div className="feature-content">
+                  {edge.node.frontmatter.description}
+                </div>
               </div>
             </div>
           ))}
@@ -79,6 +86,8 @@ export const query = graphql`
           frontmatter {
             path
             title
+            description
+            image
             date(formatString: "DD MMMM YYYY")
           }
           excerpt
