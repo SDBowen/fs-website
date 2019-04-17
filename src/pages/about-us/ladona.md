@@ -10,4 +10,4 @@ linkedinurl: "https://www.linkedin.com/in/la-dona-mc-curdy-68311812/"
 weight: 1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Freedom Shuttle was founded in 2008 with the mission to offer affordable mobility and greater freedom for the disabled.
