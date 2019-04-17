@@ -26,7 +26,7 @@ const Contact = props => (
         data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="booking" />
+        <input type="hidden" name="form-name" value="feedback" />
         <div className="form-group">
           <label htmlFor="name">
             Name:
